@@ -1,2 +1,2 @@
-import TextInput from "./components/TextInput";
-export { TextInput };
+import Indicator from "./components/Indicator";
+export { Indicator };

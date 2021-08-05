@@ -7,6 +7,11 @@ A library of React component for stock level indication with configurable params
 Run the following command:
 `npm install --save @jgornati/react-stock`
 
+## Usage
+
+```
+import {Indicator} from "@jgornati/react-stock-indicator";
+```
 ## Example
 
 ```
