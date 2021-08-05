@@ -4,6 +4,14 @@
   "private": false,
   "main": "dist/index.js",
   "module": "dist/index.js",
+  "keywords": [
+    "levelIndicator",
+    "stockIndicitor",
+    "stockGauge",
+    "stock",
+    "wifi",
+    "wifiLevel"
+  ],
   "files": [
     "dist",
     "README.md"
