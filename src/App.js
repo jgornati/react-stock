@@ -1,25 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import {Indicator} from './lib';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+export default function App() {
+    return (
+        <div style={{width: "640px", margin: "15px auto", display: "flex"}}>
+            <Indicator style={{width: "300px", margin:"10px"}}
+                       stock={20}
+                       config={{
+                           low: 3,
+                           high: 15
+                       }}
+            />
+            <Indicator style={{width: "300px", margin:"10px"}}
+                       stock={10}
+                       config={{
+                           low: 3,
+                           high: 15
+                       }}
+            />
+            <Indicator style={{width: "300px", margin:"10px"}}
+                       stock={3}
+                       config={{
+                           low: 3,
+                           high: 15
+                       }}
+            />
+        </div>
+    )
 }
-
-export default App;
