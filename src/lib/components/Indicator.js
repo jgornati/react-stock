@@ -1,5 +1,6 @@
 import React from "react";
 import * as PropTypes from "prop-types";
+import { ReactSVG } from 'react-svg'
 
 //Components
 import Empty from "./img/empty.svg";
@@ -10,13 +11,13 @@ import Medium from "./img/medium.svg";
 const Indicator = (props) => {
     let levels = () => {
         if (props.stock >= props.config.high)
-            return <img src={Full} alt=""/>
+            return <ReactSVG src={Full}/>
         else if (props.stock < props.config.high && props.stock >= props.config.low)
-            return <img src={Medium} alt=""/>
+            return <ReactSVG src={Medium}/>
         else if (props.stock > 0 && props.stock <= props.config.low)
-            return <img src={Low} alt=""/>
+            return <ReactSVG src={Low}/>
         else if (props.stock <= 0)
-            return <img src={Empty} alt=""/>
+            return <ReactSVG src={Empty}/>
     }
 
     return (
