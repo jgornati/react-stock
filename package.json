@@ -1,6 +1,6 @@
 {
   "name": "@jgornati/react-stock-indicator",
-  "version": "1.2.4",
+  "version": "1.2.6",
   "private": false,
   "main": "dist/index.js",
   "module": "dist/index.js",
