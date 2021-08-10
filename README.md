@@ -25,3 +25,5 @@ import {Indicator} from "@jgornati/react-stock-indicator";
 ```
 
 ![alt imagen de nivel](imagen.png "Vista del indicador")
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/R6R75NBGE)
